@@ -7,6 +7,7 @@ import Blogs from "./Blogs";
 import Home from "./Home";
 import Videos from "./Videos";
 import Recipes from "./Recipes";
+import whiteninetofivelogo from './whiteninetofivelogo';
 
 export default function App() {
   return (
@@ -15,12 +16,18 @@ export default function App() {
         <div>
           <div className={"topnav"}>
           <ul>
+            <div className={"logoSmall"}>
+             <Link to={"/"}>
+               <img src={whiteninetofivelogo} height={"60"} width={"60"}/>
+             </Link>
+            </div>
               <Link to="/">Home</Link>
               <Link to="/blogs">Blogs</Link>
               <Link to="/videos">Videos</Link>
               <Link to="/recipes">Recipes</Link>
           </ul>
           </div>
+
 
           {/*
           A <Switch> looks through all its children <Route>
