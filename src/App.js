@@ -15,12 +15,12 @@ export default function App() {
       <Router>
         <div>
           <div className={"topnav"}>
-          <ul>
             <div className={"logoSmall"}>
-             <Link to={"/"}>
-               <img src={whiteninetofivelogo} height={"60"} width={"60"}/>
-             </Link>
+              <Link to={"/"}>
+                <img src={whiteninetofivelogo} height={"60"} width={"60"}/>
+              </Link>
             </div>
+          <ul className={"links-nav"}>
               <Link to="/">Home</Link>
               <Link to="/blogs">Blogs</Link>
               <Link to="/videos">Videos</Link>

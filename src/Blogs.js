@@ -5,9 +5,16 @@ class Blogs extends Component {
     return (
       <div>
         <h2 style={{textAlign: "center"}}>BLOGS</h2>
-        <p style={{textAlign: "center"}}>
-          Blogs go here.
-        </p>
+        <form>
+          <fieldset>
+            <p>
+              <label>Text Area</label>
+              <textarea id = "myTextArea"
+                  rows = "20"
+                  cols = "80">Your text here</textarea>
+            </p>
+          </fieldset>
+        </form>
       </div>
     );
   }

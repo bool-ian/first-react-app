@@ -35,6 +35,9 @@ code {
     text-align: center;
     padding-bottom: 20px;
 }
+.links a:hover {
+    opacity: 0.5;
+}
 .Facebook {
     margin-right: 30px;
     border-radius: 15px;
@@ -57,12 +60,19 @@ code {
     position: absolute;
     text-align: left;
     overflow: hidden;
-    margin-top: -20px;
+    margin-top: -10px;
+    margin-left: 15px;
     height: auto;
 }
-
+.logoSmall a {
+    height: 0;
+    width: 0;
+}
+.links-nav {
+    margin-top: 40px;
+}
 /* Style the links inside the navigation bar */
-.topnav a {
+.links-nav a {
     color: #f2f2f2;
     text-align: center;
     padding: 20px 60px;
@@ -73,7 +83,7 @@ code {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.links-nav a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -85,16 +95,19 @@ code {
 }
 
 .sliderimg {
-    width: auto;
+    width: 490px;
     height: 480px;
-    border-radius: 20px;
     object-fit: fill;
-    position: page;
 }
 
 .alice-carousel__stage-item {
     box-sizing: border-box;
     text-align: center;
+    background-image: url("https://i.pinimg.com/originals/29/c8/d8/29c8d857aae4907c87875a404d41a1a7.jpg");
 }
+
+
+
+
 
 

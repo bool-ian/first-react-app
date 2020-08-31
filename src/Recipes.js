@@ -5,9 +5,16 @@ class Recipes extends Component {
     return (
       <div>
         <h2 style={{textAlign: "center"}}>RECIPES</h2>
-        <p style={{textAlign: "center"}}>
-          Recipes go here.
-        </p>
+        <form>
+          <fieldset>
+            <p>
+              <label>Text Area</label>
+              <textarea id = "myTextArea"
+                        rows = "20"
+                        cols = "80">Your text here</textarea>
+            </p>
+          </fieldset>
+        </form>
       </div>
     );
   }
